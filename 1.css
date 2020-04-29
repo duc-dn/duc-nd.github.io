@@ -1,0 +1,214 @@
+*{margin: 0; padding: 0;}
+
+html {
+    width: 100%;
+}
+
+.inner_wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn.btn-default.text-uppercase {
+    font-weight: 600;
+    padding: 15px 25px;
+    margin-top: 30px;
+}
+
+section.portfolio h3 {
+    color: white;
+    font-size: 38px;
+}
+
+section.portfolio {
+    background: #343A40;
+    padding: 168px 0 168px 0;
+}
+
+.images:hover .text {
+    opacity: 1;
+}
+
+.service .images:hover .red {
+    opacity: 1;
+}
+
+.col-xs-12.col-sm-6.col-md-4.col-lg-4 {
+    padding: 0;
+    margin: 0;
+}
+
+.text span {
+    font-size: 20px;
+    color: #ffffffd6;
+}
+
+.text .text-uppercase {
+    color: #F8B7A5;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.service .red {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #e45c36c4;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.service .images {
+    position: relative;
+}
+
+.service .row:nth-child(2) {
+    margin-bottom: 125px;
+}
+
+.service .row span {
+    font-size: 15px;
+    color: #6C757D;
+}
+
+.service .row h4 {
+    font-size: 21px;
+}
+
+.service .row hr {
+    margin-bottom: 30px;
+}
+
+section.service {padding-top: 135px;}
+
+.btn.btn-info.text-uppercase:hover {
+    background: #E2E6EA;
+}
+
+.btn.btn-info.text-uppercase {
+    color: black;
+    font-weight: 500;
+    background: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 14px;
+}
+
+.about p {
+    color: #FAB19D;
+    font-size: 17px;
+}
+
+.about h2 {
+    color: white;
+}
+
+section.about {
+    background: #F4623A;
+    padding: 130px 0 130px 0;
+}
+
+button.btn.btn-primary.text-uppercase:hover {
+    background: #F24516;
+}
+
+button.btn.btn-primary.text-uppercase {
+    margin-top: 31px;
+    padding: 14px;
+    background: #F4623A;
+    border: none;
+    font-weight: 600;
+}
+
+.start .container {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+.orange {
+    width: 100%;
+    height: 970px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #58483eb0;
+    z-index: 0;
+}
+
+.start p {
+    color: #D3D0C9;
+    font-size: 16px;
+    margin-top: 21px;
+}
+
+hr.kengang {
+    width: 51px;
+    margin: auto;
+    display: inline-block;
+    height: 3px;
+    background: #F4623A;
+    border: none;
+}
+
+.start h1 {
+    font-size: 60px;
+    color: white;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 100%;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #CAC7C4;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-brand {
+    color: #CAC7C4;
+    font-size: 24px;
+}
+
+header.start {
+    padding-top: 250px;
+    padding-bottom: 273px;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+    border: none;
+    background: #ffffff00;
+    padding: 10px 0px 10px 0;
+}
+
+
+
+header.start {
+    background: url(images/bg-masthead.jpg);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 970px;
+} 
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
